@@ -1,0 +1,250 @@
+p{
+  font-family: Kodchasan;
+}
+body{
+  background-image: url(kittennnn.jpg);
+  object-position: right;
+  background-color: #383838;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:20px;
+}
+.sol-kutu{
+  background-color: rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 360px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.zzz{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sol-başlık{
+  color: rgb(215, 225, 234);
+}
+
+.logo{
+  height: 30px;
+  width: 30px;
+  margin-right: 8px;
+}
+
+.butonlar{
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  align-items: start;
+  width: 200px;
+}
+
+.buton{
+  color: rgb(197, 197, 197);
+  background-color:rgba(0,0,0,0);
+  font-family: Kodchasan;
+  border-style: none;
+  margin-bottom: 20px;
+  font-size: 17px;
+  height: 40px;
+  width:200px;
+  transition: all 0.3s;
+  z-index: 1;
+}
+
+.buton:hover{
+  font-size: 21px;
+  color: aliceblue;
+}
+
+.buton:active{
+  cursor: pointer;
+}
+
+.buton:focus{
+  font-size: 21px;
+  color: aliceblue;
+}
+
+.pin-logo{
+  height: 130px;
+  width: 130px;
+  margin-top: -137px;
+  z-index: 0;
+  opacity: 0.8;
+}
+.son{
+  font-size: 14px;
+  margin-top: 128px;
+  z-index: 1;
+  margin-right: -230px;
+}
+
+.son:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sağ-kutu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(63, 74, 80);
+  height: 500px;
+  width: 500px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.sağ-başlık{
+  font-family:Kodchasan;
+  font-weight: bold;
+  width: 300px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.upload{
+  height: 32px;
+  width: 32px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+.sol-secenekler{
+  width: 200px;
+}
+
+.paragraf{
+  margin-bottom: 4px;
+}
+
+.input{
+  background-color: rgb(85, 106, 117);
+  height: 30px;
+  width: 200px;
+  border-style: none;
+  border-radius: 8px;
+  text-align: center;
+  outline-style: none;
+  color: rgb(196, 196, 196);
+}
+::placeholder{
+  color:rgb(196, 196, 196);
+}
+
+.butonn{
+  background-color: rgba(0,0,0,0);
+  border-style: none;
+  font-size: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  transition: all 0.3s;
+}
+.butonn:hover{
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.2);
+}
+.butonnn{
+  margin-top:0;
+  width: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #383838;
+  background-color: rgb(115, 151, 170);
+  margin-right: 15px;
+  transition: all 0.4s;
+}
+
+.butonnn:hover{
+  background-color: rgb(92, 121, 137);
+}
+
+.butonnnf{
+  background-color: rgb(186, 133, 140);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #383838;
+  margin-top:0;
+  width: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.butonnnf:hover{
+  background-color: rgb(159, 114, 120);
+  cursor: pointer;
+}
+
+.butonnnm{
+  background-color: rgb(67, 118, 150);
+  margin-top:0;
+  width: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #383838;
+  transition: 0.3s;
+}
+
+.butonnnm:hover{
+  background-color:rgb(60, 100, 125) ;
+  cursor: pointer;
+}
+
+.back{
+  margin-left: -140px;
+  margin-right: 360px;
+  padding: 5px 14px;
+  border-style: none;
+  background-color: rgba(0,0,0,0);
+  border-radius: 13px;  
+  transition: 0.3s;
+}
+
+.back:hover{
+  background-color: rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.next{
+  margin-right: -300px;
+  padding: 5px 14px;
+  border-style: none;
+  border-radius: 13px;
+  background-color: rgba(0,0,0,0); 
+  transition: 0.3s;
+}
+
+.next:hover{
+  background-color: rgba(0,0,0,0.2);
+  cursor: pointer;
+}
